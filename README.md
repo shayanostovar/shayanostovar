@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&text=Shayan%20Ostovar&fontAlign=50&fontAlignY=38&desc=ICT%20Business%20Analyst%20%E2%80%A2%20AI%20%26%20Automation%20Builder&descAlign=50&descAlignY=58&animation=fadeIn&fontSize=52" alt="Shayan Ostovar" />
+<img width="100%" src="https://raw.githubusercontent.com/shayanostovar/shayanostovar/main/assets/profile-hero.svg" alt="Shayan Ostovar — ICT Business Analyst · AI & Automation Builder" />
 
 </div>
 
