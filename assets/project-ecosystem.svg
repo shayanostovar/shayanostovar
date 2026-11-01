@@ -1,89 +1,125 @@
-<svg viewBox="0 0 1200 920" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shayan Ostovar project ecosystem map">
+<svg viewBox="0 0 1500 1712" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shayan Ostovar project ecosystem map">
 <style>
 :root{--bg:#ffffff;--ink:#111827;--muted:#6b7280;--rule:#d1d5db;--accent:#2563eb;--core:#f8fafc;--node:#ffffff}
 @media(prefers-color-scheme:dark){:root{--bg:#0d1117;--ink:#f0f6fc;--muted:#8b949e;--rule:#30363d;--accent:#58a6ff;--core:#161b22;--node:#0d1117}}
 .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
-.wire{stroke:var(--rule);stroke-width:1.2;stroke-dasharray:800;stroke-dashoffset:800;animation:draw 1.8s ease forwards}
-.flow{stroke:var(--accent);stroke-width:1;stroke-dasharray:4 12;opacity:.35;animation:flow 1.8s linear infinite}
-.node{fill:var(--node);stroke:var(--rule);stroke-width:1}
-.core{fill:var(--core);stroke:var(--accent);stroke-width:1.5}
-.pop{opacity:0;animation:pop .55s ease forwards}
-@keyframes draw{to{stroke-dashoffset:0}}@keyframes flow{to{stroke-dashoffset:-16}}@keyframes pop{to{opacity:1}}
-.p1{animation-delay:.15s}.p2{animation-delay:.3s}.p3{animation-delay:.45s}.p4{animation-delay:.6s}.p5{animation-delay:.75s}.p6{animation-delay:.9s}
+.node{fill:var(--node);stroke:var(--rule);stroke-width:1.4}.group{fill:none;stroke:var(--rule);stroke-width:1.5}.core{fill:var(--core);stroke:var(--accent);stroke-width:2}
+.wire{stroke:var(--rule);stroke-width:1.5;stroke-dasharray:900;stroke-dashoffset:900;animation:draw 1.5s ease forwards}
+.flow{stroke:var(--accent);stroke-width:1.2;stroke-dasharray:5 14;opacity:.3;animation:flow 1.8s linear infinite}
+.pop{opacity:0;animation:pop .45s ease forwards}@keyframes draw{to{stroke-dashoffset:0}}@keyframes flow{to{stroke-dashoffset:-19}}@keyframes pop{to{opacity:1}}
 @media(prefers-reduced-motion:reduce){.wire,.flow,.pop{animation:none;stroke-dashoffset:0;opacity:1}}
 </style>
-<rect width="1200" height="920" rx="22" fill="var(--bg)"/>
-<text x="54" y="38" class="mono" fill="var(--muted)" font-size="12" letter-spacing="3">PROJECT ECOSYSTEM — BUSINESS ANALYSIS × AI × SOFTWARE × AUTOMATION</text>
-<text x="1146" y="38" class="mono" fill="var(--muted)" font-size="12" text-anchor="end">SHAYAN OSTOVAR</text>
-<line x1="54" y1="52" x2="1146" y2="52" stroke="var(--rule)"/>
-
-<!-- cluster-to-core wires -->
-<g>
-<line class="wire" x1="600" y1="425" x2="245" y2="185"/>
-<line class="wire" x1="600" y1="425" x2="955" y2="185"/>
-<line class="wire" x1="600" y1="425" x2="230" y2="650"/>
-<line class="wire" x1="600" y1="425" x2="970" y2="650"/>
-<line class="wire" x1="600" y1="425" x2="600" y2="790"/>
-<line class="flow" x1="600" y1="425" x2="245" y2="185"/>
-<line class="flow" x1="600" y1="425" x2="955" y2="185"/>
-<line class="flow" x1="600" y1="425" x2="230" y2="650"/>
-<line class="flow" x1="600" y1="425" x2="970" y2="650"/>
-<line class="flow" x1="600" y1="425" x2="600" y2="790"/>
+<rect width="1500" height="1712" rx="24" fill="var(--bg)"/>
+<text x="70" y="44" class="mono" fill="var(--muted)" font-size="16" letter-spacing="3">PROJECT ECOSYSTEM — BUSINESS ANALYSIS × AI × SOFTWARE × AUTOMATION</text>
+<text x="1430" y="44" class="mono" fill="var(--muted)" font-size="15" text-anchor="end">22 PROJECTS</text>
+<line x1="70" y1="64" x2="1430" y2="64" stroke="var(--rule)"/>
+<rect class="core" x="425" y="95" width="650" height="125" rx="14"/>
+<text x="750" y="137" text-anchor="middle" class="mono" fill="var(--ink)" font-size="27" font-weight="700">ICT BUSINESS ANALYSIS</text>
+<text x="750" y="172" text-anchor="middle" class="mono" fill="var(--accent)" font-size="18">AI · SOFTWARE · AUTOMATION</text>
+<text x="750" y="199" text-anchor="middle" class="mono" fill="var(--muted)" font-size="14">process optimization → practical systems</text>
+<line class="wire" x1="750" y1="220" x2="400.0" y2="280"/>
+<line class="flow" x1="750" y1="220" x2="400.0" y2="280"/>
+<g class="pop" style="animation-delay:0.15s">
+<rect class="group" x="75" y="280" width="650" height="368" rx="12"/>
+<text x="99" y="314" class="mono" fill="var(--accent)" font-size="17" font-weight="700" letter-spacing="1.6">AI &amp; INTELLIGENT SYSTEMS</text>
+<rect class="node" x="95" y="336" width="610" height="54" rx="8"/>
+<text x="115" y="370" class="mono" fill="var(--ink)" font-size="16" font-weight="700">FaranegarBehavior</text>
+<text x="685" y="370" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PUBLIC</text>
+<rect class="node" x="95" y="404" width="610" height="54" rx="8"/>
+<text x="115" y="438" class="mono" fill="var(--ink)" font-size="16" font-weight="700">kherad-ai-platform</text>
+<text x="685" y="438" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PRIVATE</text>
+<rect class="node" x="95" y="472" width="610" height="54" rx="8"/>
+<text x="115" y="506" class="mono" fill="var(--ink)" font-size="16" font-weight="700">RasafamCRM</text>
+<text x="685" y="506" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PRIVATE</text>
+<rect class="node" x="95" y="540" width="610" height="54" rx="8"/>
+<text x="115" y="563" class="mono" fill="var(--ink)" font-size="15.5" font-weight="700">TravelTechCrm</text>
+<text x="115" y="582" class="mono" fill="var(--ink)" font-size="15.5" font-weight="700">WorkFlowOptimization</text>
+<text x="685" y="574" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PUBLIC</text>
 </g>
-
-<!-- core -->
-<g class="pop p1">
-<rect class="core" x="430" y="365" width="340" height="120" rx="10"/>
-<text x="600" y="403" text-anchor="middle" class="mono" fill="var(--ink)" font-size="19" font-weight="700" letter-spacing="1.5">ICT BUSINESS ANALYSIS</text>
-<text x="600" y="431" text-anchor="middle" class="mono" fill="var(--accent)" font-size="13">AI · SOFTWARE · AUTOMATION</text>
-<text x="600" y="456" text-anchor="middle" class="mono" fill="var(--muted)" font-size="11">process optimization → practical systems</text>
+<line class="wire" x1="750" y1="220" x2="1100.0" y2="280"/>
+<line class="flow" x1="750" y1="220" x2="1100.0" y2="280"/>
+<g class="pop" style="animation-delay:0.27s">
+<rect class="group" x="775" y="280" width="650" height="436" rx="12"/>
+<text x="799" y="314" class="mono" fill="var(--accent)" font-size="17" font-weight="700" letter-spacing="1.6">BUSINESS SYSTEMS</text>
+<rect class="node" x="795" y="336" width="610" height="54" rx="8"/>
+<text x="815" y="370" class="mono" fill="var(--ink)" font-size="16" font-weight="700">Atris</text>
+<text x="1385" y="370" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PRIVATE</text>
+<rect class="node" x="795" y="404" width="610" height="54" rx="8"/>
+<text x="815" y="438" class="mono" fill="var(--ink)" font-size="16" font-weight="700">CustomerClub</text>
+<text x="1385" y="438" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PRIVATE</text>
+<rect class="node" x="795" y="472" width="610" height="54" rx="8"/>
+<text x="815" y="506" class="mono" fill="var(--ink)" font-size="16" font-weight="700">CustomerClubOld</text>
+<text x="1385" y="506" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PRIVATE</text>
+<rect class="node" x="795" y="540" width="610" height="54" rx="8"/>
+<text x="815" y="574" class="mono" fill="var(--ink)" font-size="16" font-weight="700">FaranegarCrmMvc</text>
+<text x="1385" y="574" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PRIVATE</text>
+<rect class="node" x="795" y="608" width="610" height="54" rx="8"/>
+<text x="815" y="642" class="mono" fill="var(--ink)" font-size="16" font-weight="700">SalesFunnel</text>
+<text x="1385" y="642" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PRIVATE</text>
 </g>
-
-<!-- AI cluster -->
-<g class="pop p2">
-<text x="245" y="92" text-anchor="middle" class="mono" fill="var(--accent)" font-size="12" letter-spacing="2.5">AI &amp; INTELLIGENT SYSTEMS</text>
-<rect class="node" x="70" y="115" width="350" height="56" rx="6"/><text x="245" y="139" text-anchor="middle" class="mono" fill="var(--ink)" font-size="13" font-weight="700">Kherad AI Platform</text><text x="245" y="158" text-anchor="middle" class="mono" fill="var(--muted)" font-size="9.5">local LLMs · GPU orchestration · multimodal AI</text>
-<rect class="node" x="70" y="181" width="350" height="56" rx="6"/><text x="245" y="205" text-anchor="middle" class="mono" fill="var(--ink)" font-size="13" font-weight="700">RasafamCRM AI</text><text x="245" y="224" text-anchor="middle" class="mono" fill="var(--muted)" font-size="9.5">RAG · OCR · structured extraction · automation</text>
-<rect class="node" x="70" y="247" width="350" height="48" rx="6"/><text x="245" y="277" text-anchor="middle" class="mono" fill="var(--ink)" font-size="11.5">TravelTechCrm-WorkFlowOptimization</text>
-<rect class="node" x="70" y="305" width="350" height="48" rx="6"/><text x="245" y="335" text-anchor="middle" class="mono" fill="var(--ink)" font-size="11.5">FaranegarBehavior</text>
+<line class="wire" x1="750" y1="220" x2="400.0" y2="718"/>
+<line class="flow" x1="750" y1="220" x2="400.0" y2="718"/>
+<g class="pop" style="animation-delay:0.39s">
+<rect class="group" x="75" y="718" width="650" height="572" rx="12"/>
+<text x="99" y="752" class="mono" fill="var(--accent)" font-size="17" font-weight="700" letter-spacing="1.6">TRAVEL TECH &amp; OPERATIONS</text>
+<rect class="node" x="95" y="774" width="610" height="54" rx="8"/>
+<text x="115" y="808" class="mono" fill="var(--ink)" font-size="16" font-weight="700">FlightSyncPS</text>
+<text x="685" y="808" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PRIVATE</text>
+<rect class="node" x="95" y="842" width="610" height="54" rx="8"/>
+<text x="115" y="876" class="mono" fill="var(--ink)" font-size="16" font-weight="700">ParastooSeir</text>
+<text x="685" y="876" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PRIVATE</text>
+<rect class="node" x="95" y="910" width="610" height="54" rx="8"/>
+<text x="115" y="944" class="mono" fill="var(--ink)" font-size="16" font-weight="700">ParastooVoucher</text>
+<text x="685" y="944" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PRIVATE</text>
+<rect class="node" x="95" y="978" width="610" height="54" rx="8"/>
+<text x="115" y="1012" class="mono" fill="var(--ink)" font-size="16" font-weight="700">ParsVtIntegrator</text>
+<text x="685" y="1012" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PRIVATE</text>
+<rect class="node" x="95" y="1046" width="610" height="54" rx="8"/>
+<text x="115" y="1080" class="mono" fill="var(--ink)" font-size="16" font-weight="700">PouyaGen2</text>
+<text x="685" y="1080" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PRIVATE</text>
+<rect class="node" x="95" y="1114" width="610" height="54" rx="8"/>
+<text x="115" y="1148" class="mono" fill="var(--ink)" font-size="16" font-weight="700">PouyaOld</text>
+<text x="685" y="1148" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PRIVATE</text>
+<rect class="node" x="95" y="1182" width="610" height="54" rx="8"/>
+<text x="115" y="1216" class="mono" fill="var(--ink)" font-size="16" font-weight="700">visa-frontend</text>
+<text x="685" y="1216" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PRIVATE</text>
 </g>
-
-<!-- Business cluster -->
-<g class="pop p3">
-<text x="955" y="92" text-anchor="middle" class="mono" fill="var(--accent)" font-size="12" letter-spacing="2.5">BUSINESS SYSTEMS</text>
-<rect class="node" x="780" y="115" width="350" height="48" rx="6"/><text x="955" y="145" text-anchor="middle" class="mono" fill="var(--ink)" font-size="11.5">FaranegarCrmMvc</text>
-<rect class="node" x="780" y="173" width="350" height="48" rx="6"/><text x="955" y="203" text-anchor="middle" class="mono" fill="var(--ink)" font-size="11.5">CustomerClub</text>
-<rect class="node" x="780" y="231" width="350" height="48" rx="6"/><text x="955" y="261" text-anchor="middle" class="mono" fill="var(--ink)" font-size="11.5">SalesFunnel</text>
-<rect class="node" x="780" y="289" width="350" height="48" rx="6"/><text x="955" y="319" text-anchor="middle" class="mono" fill="var(--ink)" font-size="11.5">Atris</text>
+<line class="wire" x1="750" y1="220" x2="1100.0" y2="786"/>
+<line class="flow" x1="750" y1="220" x2="1100.0" y2="786"/>
+<g class="pop" style="animation-delay:0.51s">
+<rect class="group" x="775" y="786" width="650" height="300" rx="12"/>
+<text x="799" y="820" class="mono" fill="var(--accent)" font-size="17" font-weight="700" letter-spacing="1.6">DIGITAL PRODUCTS &amp; WEB</text>
+<rect class="node" x="795" y="842" width="610" height="54" rx="8"/>
+<text x="815" y="876" class="mono" fill="var(--ink)" font-size="16" font-weight="700">4u-group</text>
+<text x="1385" y="876" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PRIVATE</text>
+<rect class="node" x="795" y="910" width="610" height="54" rx="8"/>
+<text x="815" y="933" class="mono" fill="var(--ink)" font-size="15.5" font-weight="700">4U Group EnergySharing</text>
+<text x="815" y="952" class="mono" fill="var(--ink)" font-size="15.5" font-weight="700">Management</text>
+<text x="1385" y="944" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PRIVATE</text>
+<rect class="node" x="795" y="978" width="610" height="54" rx="8"/>
+<text x="815" y="1012" class="mono" fill="var(--ink)" font-size="16" font-weight="700">DanialPardazWebsite</text>
+<text x="1385" y="1012" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PRIVATE</text>
 </g>
-
-<!-- Travel cluster -->
-<g class="pop p4">
-<text x="230" y="555" text-anchor="middle" class="mono" fill="var(--accent)" font-size="12" letter-spacing="2.5">TRAVEL TECH &amp; OPERATIONS</text>
-<rect class="node" x="55" y="580" width="350" height="45" rx="6"/><text x="230" y="608" text-anchor="middle" class="mono" fill="var(--ink)" font-size="11.5">ParastooSeir</text>
-<rect class="node" x="55" y="635" width="350" height="45" rx="6"/><text x="230" y="663" text-anchor="middle" class="mono" fill="var(--ink)" font-size="11.5">ParastooVoucher</text>
-<rect class="node" x="55" y="690" width="350" height="45" rx="6"/><text x="230" y="718" text-anchor="middle" class="mono" fill="var(--ink)" font-size="11.5">FlightSyncPS</text>
-<rect class="node" x="55" y="745" width="350" height="45" rx="6"/><text x="230" y="773" text-anchor="middle" class="mono" fill="var(--ink)" font-size="11.5">ParsVtIntegrator</text>
-<rect class="node" x="55" y="800" width="168" height="45" rx="6"/><text x="139" y="828" text-anchor="middle" class="mono" fill="var(--ink)" font-size="10.5">PouyaGen2</text>
-<rect class="node" x="237" y="800" width="168" height="45" rx="6"/><text x="321" y="828" text-anchor="middle" class="mono" fill="var(--ink)" font-size="10.5">PSUpdated</text>
+<line class="wire" x1="750" y1="220" x2="400.0" y2="1360"/>
+<line class="flow" x1="750" y1="220" x2="400.0" y2="1360"/>
+<g class="pop" style="animation-delay:0.63s">
+<rect class="group" x="75" y="1360" width="650" height="232" rx="12"/>
+<text x="99" y="1394" class="mono" fill="var(--accent)" font-size="17" font-weight="700" letter-spacing="1.6">EXPERIMENTS &amp; LEGACY</text>
+<rect class="node" x="95" y="1416" width="610" height="54" rx="8"/>
+<text x="115" y="1439" class="mono" fill="var(--ink)" font-size="15.5" font-weight="700">Fal e HafezGenerator</text>
+<text x="115" y="1458" class="mono" fill="var(--ink)" font-size="15.5" font-weight="700">YaldaNight</text>
+<text x="685" y="1450" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PUBLIC</text>
+<rect class="node" x="95" y="1484" width="610" height="54" rx="8"/>
+<text x="115" y="1518" class="mono" fill="var(--ink)" font-size="16" font-weight="700">MagiskOnWSA</text>
+<text x="685" y="1518" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PUBLIC</text>
 </g>
-
-<!-- Digital products -->
-<g class="pop p5">
-<text x="970" y="555" text-anchor="middle" class="mono" fill="var(--accent)" font-size="12" letter-spacing="2.5">DIGITAL PRODUCTS &amp; WEB</text>
-<rect class="node" x="795" y="580" width="350" height="45" rx="6"/><text x="970" y="608" text-anchor="middle" class="mono" fill="var(--ink)" font-size="11.5">4U-Group</text>
-<rect class="node" x="795" y="635" width="350" height="56" rx="6"/><text x="970" y="657" text-anchor="middle" class="mono" fill="var(--ink)" font-size="11.5">4U-Group EnergySharing</text><text x="970" y="677" text-anchor="middle" class="mono" fill="var(--muted)" font-size="9.5">consumer · provider · admin matching platform</text>
-<rect class="node" x="795" y="701" width="350" height="45" rx="6"/><text x="970" y="729" text-anchor="middle" class="mono" fill="var(--ink)" font-size="11.5">DanialPardazWebsite</text>
-<rect class="node" x="795" y="756" width="350" height="45" rx="6"/><text x="970" y="784" text-anchor="middle" class="mono" fill="var(--ink)" font-size="11.5">visa-frontend</text>
-</g>
-
-<!-- experiments -->
-<g class="pop p6">
-<text x="600" y="735" text-anchor="middle" class="mono" fill="var(--accent)" font-size="12" letter-spacing="2.5">EXPERIMENTS &amp; LEGACY</text>
-<rect class="node" x="445" y="755" width="310" height="42" rx="6"/><text x="600" y="781" text-anchor="middle" class="mono" fill="var(--ink)" font-size="10.5">Fal-e-HafezGenerator-YaldaNight</text>
-<rect class="node" x="445" y="807" width="150" height="42" rx="6"/><text x="520" y="833" text-anchor="middle" class="mono" fill="var(--ink)" font-size="10.5">MagiskOnWSA</text>
-<rect class="node" x="605" y="807" width="150" height="42" rx="6"/><text x="680" y="833" text-anchor="middle" class="mono" fill="var(--ink)" font-size="10.5">CustomerClubOld</text>
-<rect class="node" x="445" y="859" width="150" height="42" rx="6"/><text x="520" y="885" text-anchor="middle" class="mono" fill="var(--ink)" font-size="10.5">PouyaOld</text>
-<rect class="node" x="605" y="859" width="150" height="42" rx="6"/><text x="680" y="885" text-anchor="middle" class="mono" fill="var(--ink)" font-size="10.5">profile / lab</text>
+<line class="wire" x1="750" y1="220" x2="1100.0" y2="1156"/>
+<line class="flow" x1="750" y1="220" x2="1100.0" y2="1156"/>
+<g class="pop" style="animation-delay:0.75s">
+<rect class="group" x="775" y="1156" width="650" height="164" rx="12"/>
+<text x="799" y="1190" class="mono" fill="var(--accent)" font-size="17" font-weight="700" letter-spacing="1.6">OTHER PROJECTS</text>
+<rect class="node" x="795" y="1212" width="610" height="54" rx="8"/>
+<text x="815" y="1246" class="mono" fill="var(--ink)" font-size="16" font-weight="700">PSUpdated</text>
+<text x="1385" y="1246" text-anchor="end" class="mono" fill="var(--muted)" font-size="11">PRIVATE</text>
 </g>
 </svg>

@@ -104,8 +104,55 @@ RasafamCRM AI brings AI directly into day-to-day CRM operations. The system is d
 
 ---
 
+---
+
+<!-- AUTO:START -->
 ## 🗺️ Project Ecosystem
+
+**22 projects** · 4 public · 18 private
 
 <p align="center">
   <img width="100%" src="https://raw.githubusercontent.com/shayanostovar/shayanostovar/main/assets/project-ecosystem.svg" alt="Shayan Ostovar project ecosystem map" />
 </p>
+
+### Repository Index
+
+**AI & Intelligent Systems**
+- [FaranegarBehavior](https://github.com/shayanostovar/FaranegarBehavior)
+- kherad-ai-platform *(private)*
+- RasafamCRM *(private)*
+- [TravelTechCrm-WorkFlowOptimization](https://github.com/shayanostovar/TravelTechCrm-WorkFlowOptimization)
+
+**Business Systems**
+- Atris *(private)*
+- CustomerClub *(private)*
+- CustomerClubOld *(private)*
+- FaranegarCrmMvc *(private)*
+- SalesFunnel *(private)*
+
+**Travel Tech & Operations**
+- FlightSyncPS *(private)*
+- ParastooSeir *(private)*
+- ParastooVoucher *(private)*
+- ParsVtIntegrator *(private)*
+- PouyaGen2 *(private)*
+- PouyaOld *(private)*
+- visa-frontend *(private)*
+
+**Digital Products & Web**
+- 4u-group *(private)*
+- 4U-Group-EnergySharing-Management *(private)*
+- DanialPardazWebsite *(private)*
+
+**Experiments & Legacy**
+- [Fal-e-HafezGenerator-YaldaNight](https://github.com/shayanostovar/Fal-e-HafezGenerator-YaldaNight)
+- [MagiskOnWSA](https://github.com/shayanostovar/MagiskOnWSA)
+
+**Other Projects**
+- PSUpdated *(private)*
+
+### Current Stack Signals
+
+CSS
+
+<!-- AUTO:END -->
