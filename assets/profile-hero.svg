@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="260" rx="24" fill="url(#g)"/>
+  <text x="600" y="105" text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="58" font-weight="700" fill="#f0f6fc">
+    Shayan Ostovar
+  </text>
+  <text x="600" y="158" text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="24" font-weight="500" fill="#58a6ff">
+    ICT Business Analyst · AI &amp; Automation Builder
+  </text>
+  <text x="600" y="200" text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="18" fill="#8b949e">
+    Business Analysis × AI × Software × Automation × Process Improvement
+  </text>
+</svg>
