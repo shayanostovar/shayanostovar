@@ -64,11 +64,11 @@ def merged_projects():
 
 def category(name):
     n = name.lower()
-    if any(k in n for k in ["kherad", "rasafam", "behavior", "workflowoptimization"]):
+    if any(k in n for k in ["kherad", "behavior", "workflowoptimization"]):
         return "AI & Intelligent Systems"
     if any(k in n for k in ["parastoo", "flight", "pars", "pouya", "visa"]):
         return "Travel Tech & Operations"
-    if any(k in n for k in ["crm", "customerclub", "salesfunnel", "atris"]):
+    if any(k in n for k in ["rasafam", "crm", "customerclub", "salesfunnel", "atris"]):
         return "Business Systems"
     if any(k in n for k in ["4u", "danial", "website"]):
         return "Digital Products & Web"
