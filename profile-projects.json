@@ -1,0 +1,92 @@
+{
+  "projects": [
+    {
+      "name": "4u-group",
+      "visibility": "private"
+    },
+    {
+      "name": "4U-Group-EnergySharing-Management",
+      "visibility": "private"
+    },
+    {
+      "name": "Atris",
+      "visibility": "private"
+    },
+    {
+      "name": "CustomerClub",
+      "visibility": "private"
+    },
+    {
+      "name": "CustomerClubOld",
+      "visibility": "private"
+    },
+    {
+      "name": "DanialPardazWebsite",
+      "visibility": "private"
+    },
+    {
+      "name": "Fal-e-HafezGenerator-YaldaNight",
+      "visibility": "public"
+    },
+    {
+      "name": "FaranegarBehavior",
+      "visibility": "public"
+    },
+    {
+      "name": "FaranegarCrmMvc",
+      "visibility": "private"
+    },
+    {
+      "name": "FlightSyncPS",
+      "visibility": "private"
+    },
+    {
+      "name": "kherad-ai-platform",
+      "visibility": "private"
+    },
+    {
+      "name": "MagiskOnWSA",
+      "visibility": "public"
+    },
+    {
+      "name": "ParastooSeir",
+      "visibility": "private"
+    },
+    {
+      "name": "ParastooVoucher",
+      "visibility": "private"
+    },
+    {
+      "name": "ParsVtIntegrator",
+      "visibility": "private"
+    },
+    {
+      "name": "PouyaGen2",
+      "visibility": "private"
+    },
+    {
+      "name": "PouyaOld",
+      "visibility": "private"
+    },
+    {
+      "name": "PSUpdated",
+      "visibility": "private"
+    },
+    {
+      "name": "RasafamCRM",
+      "visibility": "private"
+    },
+    {
+      "name": "SalesFunnel",
+      "visibility": "private"
+    },
+    {
+      "name": "TravelTechCrm-WorkFlowOptimization",
+      "visibility": "public"
+    },
+    {
+      "name": "visa-frontend",
+      "visibility": "private"
+    }
+  ]
+}
