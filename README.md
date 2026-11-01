@@ -118,7 +118,6 @@ RasafamCRM is a specialized enterprise CRM built around practical business workf
 **AI & Intelligent Systems**
 - [FaranegarBehavior](https://github.com/shayanostovar/FaranegarBehavior)
 - kherad-ai-platform *(private)*
-- RasafamCRM *(private)*
 - [TravelTechCrm-WorkFlowOptimization](https://github.com/shayanostovar/TravelTechCrm-WorkFlowOptimization)
 
 **Business Systems**
@@ -126,6 +125,7 @@ RasafamCRM is a specialized enterprise CRM built around practical business workf
 - CustomerClub *(private)*
 - CustomerClubOld *(private)*
 - FaranegarCrmMvc *(private)*
+- RasafamCRM *(private)*
 - SalesFunnel *(private)*
 
 **Travel Tech & Operations**
