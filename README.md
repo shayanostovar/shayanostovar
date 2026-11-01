@@ -2,9 +2,25 @@
 
 # Shayan Ostovar
 
-### AI Systems · Software Platforms · Infrastructure
+### ICT Business Analyst · AI & Automation Builder
 
-Building practical AI systems, self-hosted inference platforms, enterprise software, and production infrastructure.
+</div>
+
+## 👾 Contribution Arcade
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shayanostovar/shayanostovar/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shayanostovar/shayanostovar/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/shayanostovar/shayanostovar/output/pacman-contribution-graph.svg">
+</picture>
+
+<br/>
+
+<div align="center">
+
+### I’m an ICT Business Analyst who loves turning ideas and business challenges into AI, software, and automation that make organizations work smarter.
+
+<sub>Business analysis × AI × software × automation × process improvement</sub>
 
 </div>
 
@@ -86,13 +102,3 @@ RasafamCRM AI brings AI directly into day-to-day CRM operations. The system is d
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-
----
-
-## Contribution Arcade
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shayanostovar/shayanostovar/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shayanostovar/shayanostovar/output/pacman-contribution-graph.svg">
-  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/shayanostovar/shayanostovar/output/pacman-contribution-graph.svg">
-</picture>
