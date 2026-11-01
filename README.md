@@ -100,3 +100,12 @@ RasafamCRM AI brings AI directly into day-to-day CRM operations. The system is d
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+
+---
+
+## 🗺️ Project Ecosystem
+
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/shayanostovar/shayanostovar/main/assets/project-ecosystem.svg" alt="Shayan Ostovar project ecosystem map" />
+</p>
