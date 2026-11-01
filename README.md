@@ -53,28 +53,26 @@ Kherad AI is a production-focused platform designed to bring multiple AI workloa
 
 ---
 
-### RasafamCRM AI
+### RasafamCRM
 
-> **Enterprise CRM enhanced with local AI for email intelligence, structured extraction, RAG, OCR, and workflow automation.**
+> **A specialized, professional CRM platform designed for real-world business operations, process control, and workflow optimization.**
 
-RasafamCRM AI brings AI directly into day-to-day CRM operations. The system is designed around practical enterprise use cases: understanding incoming communication, extracting structured business data, retrieving the right internal context, and assisting users without sending sensitive workflows to an uncontrolled external stack.
+RasafamCRM is a specialized enterprise CRM built around practical business workflows, structured customer management, operational control, and process optimization. Its focus is not AI as a product identity, but a strong CRM foundation that can use intelligent automation where it creates real business value.
 
 **Highlights**
-- AI-assisted email understanding and processing
-- Structured JSON extraction for downstream workflows
-- Retrieval-Augmented Generation with isolated project context
-- OCR and document-processing workflows
-- Local inference with Qwen / Ollama
-- Production-focused timeout, validation, and error handling
+- Specialized CRM workflows for real operational use
+- Customer, communication, and process management
+- Business-process optimization and automation
+- Structured operational data and workflow control
+- Extensible architecture for intelligent features and integrations
+- Production-focused reliability and maintainability
 
 **Stack**
 
-![Qwen](https://img.shields.io/badge/Qwen-Local%20Inference-6C5CE7?style=flat-square)
-![Ollama](https://img.shields.io/badge/Ollama-Model%20Runtime-111111?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-Retrieval%20Augmented%20Generation-0A7EA4?style=flat-square)
-![OCR](https://img.shields.io/badge/OCR-Document%20Understanding-4B5563?style=flat-square)
-![JSON](https://img.shields.io/badge/Structured%20Output-JSON-000000?style=flat-square&logo=json&logoColor=white)
-![CRM](https://img.shields.io/badge/CRM-Enterprise%20Automation-2563EB?style=flat-square)
+![CRM](https://img.shields.io/badge/CRM-Specialized%20Enterprise%20CRM-2563EB?style=flat-square)
+![Workflow](https://img.shields.io/badge/Workflow-Process%20Optimization-0A7EA4?style=flat-square)
+![Automation](https://img.shields.io/badge/Automation-Business%20Operations-4B5563?style=flat-square)
+![Integration](https://img.shields.io/badge/Integration-Extensible%20Architecture-111111?style=flat-square)
 
 > Source code is private.
 
