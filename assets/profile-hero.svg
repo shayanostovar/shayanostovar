@@ -1,25 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Shayan Ostovar, ICT Business Analyst, AI and Automation Builder">
+  <title>Shayan Ostovar — ICT Business Analyst</title>
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="50%" stop-color="#161b22"/>
-      <stop offset="100%" stop-color="#0d1117"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0b172b"/>
+      <stop offset="0.55" stop-color="#142547"/>
+      <stop offset="1" stop-color="#0d152b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1">
+      <stop stop-color="#4ee0c1"/>
+      <stop offset="1" stop-color="#868dff"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="260" rx="24" fill="url(#g)"/>
-  <text x="600" y="105" text-anchor="middle"
-        font-family="Segoe UI, Arial, sans-serif"
-        font-size="58" font-weight="700" fill="#f0f6fc">
-    Shayan Ostovar
-  </text>
-  <text x="600" y="158" text-anchor="middle"
-        font-family="Segoe UI, Arial, sans-serif"
-        font-size="24" font-weight="500" fill="#58a6ff">
-    ICT Business Analyst · AI &amp; Automation Builder
-  </text>
-  <text x="600" y="200" text-anchor="middle"
-        font-family="Segoe UI, Arial, sans-serif"
-        font-size="18" fill="#8b949e">
-    Business Analysis × AI × Software × Automation × Process Improvement
-  </text>
+  <rect width="1280" height="320" rx="22" fill="url(#background)"/>
+  <path d="M860 0 670 320M1020 0 830 320M1180 0 990 320M1340 0 1150 320" stroke="#7396ce" stroke-opacity=".1" stroke-width="1"/>
+  <path d="M0 281H1280" stroke="#6781a9" stroke-opacity=".23"/>
+  <rect x="57" y="55" width="6" height="213" rx="3" fill="url(#accent)"/>
+  <text x="90" y="92" fill="#6ee4d4" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3.3">BUSINESS × TECHNOLOGY</text>
+  <text x="86" y="161" fill="#f5f7fe" font-family="Segoe UI,Arial,sans-serif" font-size="67" font-weight="750">Shayan Ostovar</text>
+  <text x="90" y="207" fill="#a1c7ff" font-family="Segoe UI,Arial,sans-serif" font-size="27">ICT Business Analyst  ·  AI &amp; Automation Builder</text>
+  <text x="90" y="251" fill="#a5b7d3" font-family="Segoe UI,Arial,sans-serif" font-size="20">From business challenges to systems that deliver.</text>
+  <g fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round">
+    <path d="M1030 110 1105 67 1180 113 1180 198 1105 242 1030 199Z" stroke-opacity=".63"/>
+    <path d="M1030 110 1105 155 1180 113M1105 155V242" stroke-opacity=".7"/>
+    <path d="M955 159 1030 110M1180 198 1233 226" stroke-opacity=".45" stroke-dasharray="7 10"/>
+  </g>
+  <circle cx="1030" cy="110" r="9" fill="#5edec8"/>
+  <circle cx="1105" cy="67" r="8" fill="#8ca6ff"/>
+  <circle cx="1180" cy="113" r="9" fill="#5edec8"/>
+  <circle cx="1180" cy="198" r="8" fill="#8ca6ff"/>
+  <circle cx="1105" cy="242" r="9" fill="#5edec8"/>
+  <circle cx="1030" cy="199" r="8" fill="#8ca6ff"/>
+  <circle cx="1105" cy="155" r="11" fill="#ecfaff"/>
+  <circle cx="955" cy="159" r="7" fill="#768abf"/>
+  <circle cx="1233" cy="226" r="7" fill="#768abf"/>
 </svg>
