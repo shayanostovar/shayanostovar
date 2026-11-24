@@ -62,7 +62,6 @@ A curated view of my work, plus an **automatically updated** index of public rep
 | [Faranegar Behavior](https://github.com/shayanostovar/FaranegarBehavior) | Business workflow and application test artifacts |
 | [Travel Tech CRM & Workflow Strategy](https://github.com/shayanostovar/TravelTechCrm-WorkFlowOptimization) | CRM strategy, sales processes and KPI frameworks |
 | [WordRava-for-ChatGPT](https://github.com/shayanostovar/WordRava-for-ChatGPT) | Public repository |
-| [WordRavaCenter](https://github.com/shayanostovar/WordRavaCenter) | Public repository |
 
 <sub>Only publicly visible, non-archived repositories are listed. Private code and internal repository names are never indexed.</sub>
 

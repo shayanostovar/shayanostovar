@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 992" role="img" aria-label="Selected work and public repositories">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 903" role="img" aria-label="Selected work and public repositories">
 <title>Shayan Ostovar: project landscape</title>
 <desc>Four selected case studies and an automatically updated set of public GitHub projects.</desc>
 <defs>
   <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#101b32"/><stop offset="1" stop-color="#07101f"/></linearGradient>
   <linearGradient id="stroke" x1="0" x2="1"><stop stop-color="#8b8df9"/><stop offset="1" stop-color="#4dd4c5"/></linearGradient>
 </defs>
-<rect width="1280" height="992" rx="26" fill="url(#bg)"/>
+<rect width="1280" height="903" rx="26" fill="url(#bg)"/>
 <rect x="24" y="24" width="1232" height="100" rx="19" fill="#16243d" stroke="#2a3e5f"/>
 <text x="62" y="67" fill="#9ed8ed" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="3">PROJECT LANDSCAPE</text>
 <text x="62" y="98" fill="#f1f6ff" font-family="Arial,sans-serif" font-size="24" font-weight="700">Business analysis → dependable digital systems</text>
@@ -33,7 +33,7 @@
 <text x="683" y="467" fill="#adbed8" font-family="Arial,sans-serif" font-size="17">Business websites &amp; digital product experiences</text>
 <line x1="62" x2="1218" y1="555" y2="555" stroke="#38506e"/>
 <text x="62" y="605" fill="#f0f5ff" font-family="Arial,sans-serif" font-size="24" font-weight="700">Public GitHub projects</text>
-<text x="1218" y="603" text-anchor="end" fill="#88a9c6" font-family="Arial,sans-serif" font-size="16">5 PUBLIC REPOSITORIES</text>
+<text x="1218" y="603" text-anchor="end" fill="#88a9c6" font-family="Arial,sans-serif" font-size="16">4 PUBLIC REPOSITORIES</text>
 <rect x="62" y="632" width="562" height="75" rx="13" fill="#142238" stroke="#2e465e"/>
 <circle cx="87" cy="670" r="6" fill="#52d0bc"/>
 <text x="105" y="664" fill="#f2f6ff" font-family="Arial,sans-serif" font-size="18" font-weight="700">Hafez Fortune · Yalda Night</text>
@@ -50,9 +50,5 @@
 <circle cx="681" cy="759" r="6" fill="#52d0bc"/>
 <text x="699" y="753" fill="#f2f6ff" font-family="Arial,sans-serif" font-size="18" font-weight="700">WordRava-for-ChatGPT</text>
 <text x="699" y="778" fill="#a6b6cd" font-family="Arial,sans-serif" font-size="14">Public repository</text>
-<rect x="62" y="810" width="562" height="75" rx="13" fill="#142238" stroke="#2e465e"/>
-<circle cx="87" cy="848" r="6" fill="#52d0bc"/>
-<text x="105" y="842" fill="#f2f6ff" font-family="Arial,sans-serif" font-size="18" font-weight="700">WordRavaCenter</text>
-<text x="105" y="867" fill="#a6b6cd" font-family="Arial,sans-serif" font-size="14">Public repository</text>
-<text x="62" y="963" fill="#7e99b8" font-family="Arial,sans-serif" font-size="14">Selected case studies are privately maintained · Public repositories update automatically</text>
+<text x="62" y="874" fill="#7e99b8" font-family="Arial,sans-serif" font-size="14">Selected case studies are privately maintained · Public repositories update automatically</text>
 </svg>
